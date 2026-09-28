@@ -1,0 +1,12 @@
+# Baba_Jee - AI data analyst agent
+# Pinned to minimum versions that are known to work together on Streamlit Community Cloud.
+
+streamlit>=1.57
+pandas>=2.2
+numpy>=1.26
+altair>=5.3
+openai>=1.40
+python-dotenv>=1.0
+openpyxl>=3.1
+tabulate>=0.9
+python-docx>=1.1

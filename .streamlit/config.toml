@@ -1,0 +1,59 @@
+# Baba_Jee - dark product theme
+# Deep navy canvas, violet brand accent, Inter + JetBrains Mono.
+
+[theme]
+base = "dark"
+primaryColor = "#7C5CFF"
+backgroundColor = "#0B0F1A"
+secondaryBackgroundColor = "#131A2B"
+codeBackgroundColor = "#0F1524"
+textColor = "#E6EAF3"
+linkColor = "#9B87FF"
+borderColor = "#242E45"
+showWidgetBorder = true
+showSidebarBorder = true
+baseRadius = "10px"
+buttonRadius = "10px"
+
+font = "'Inter':https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+codeFontSize = "0.85rem"
+codeTextColor = "#C7D2FE"
+baseFontSize = 15
+baseFontWeight = 400
+headingFontSizes = ["36px", "26px", "21px", "18px", "16px", "14px"]
+headingFontWeights = [700, 650, 620, 600, 600, 600]
+linkUnderline = false
+
+chartCategoricalColors = ["#7C5CFF", "#38BDF8", "#34D399", "#FBBF24", "#FB7185", "#A78BFA", "#22D3EE", "#F472B6"]
+chartSequentialColors = ["#0F1524", "#182242", "#213060", "#2B3F80", "#3A50A3", "#4C63C4", "#6377DC", "#7C8FEC", "#9BA9F6", "#C2CCFB"]
+
+grayColor = "#94A3B8"
+blueColor = "#38BDF8"
+greenColor = "#34D399"
+redColor = "#FB7185"
+yellowColor = "#FBBF24"
+orangeColor = "#FB923C"
+violetColor = "#A78BFA"
+
+dataframeBorderColor = "#242E45"
+dataframeHeaderBackgroundColor = "#182135"
+
+[theme.sidebar]
+backgroundColor = "#080B14"
+secondaryBackgroundColor = "#131A2B"
+codeBackgroundColor = "#0F1524"
+textColor = "#E6EAF3"
+borderColor = "#1E2739"
+primaryColor = "#7C5CFF"
+dataframeHeaderBackgroundColor = "#131A2B"
+dataframeBorderColor = "#1E2739"
+
+[server]
+maxUploadSize = 200
+headless = false          # browser khud khul jaye jab app chale
+runOnSave = true          # file save karte hi app dobara run ho jaye
+port = 8501
+
+[browser]
+gatherUsageStats = false
